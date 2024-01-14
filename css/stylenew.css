@@ -1,0 +1,100 @@
+
+#home {
+    background-image: url('../pic/bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#home .home-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    width: 100%;
+}
+
+#home .home-layer .home-context {
+    color: aliceblue;
+
+}
+
+#home .home-layer .home-context .home-animation {
+    position: relative;
+}
+
+#home .home-layer .home-context .home-animation::after {
+    content: '   ';
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: title 6s infinite alternate;
+    -webkit-animation: title 6s infinite alternate;
+}
+
+@keyframes title {
+    0% {
+        content: 'I Am|';
+    }
+
+    10% {
+        content: 'I Am Larry |';
+    }
+
+    15% {
+        content: 'I Am Larry Daniels|';
+    }
+
+    20% {
+        content: 'I Am Larry|';
+    }
+
+    25% {
+        content: 'I Am |';
+    }
+
+    30% {
+        content: 'I Am Dev|';
+    }
+
+    35% {
+        content: 'I Am Develop';
+    }
+
+    40% {
+        content: 'I Am Developer|';
+    }
+
+    45% {
+        content: 'I Am Deve|';
+    }
+
+    50% {
+        content: 'I Am |';
+    }
+
+    60% {
+        content: 'I Am |';
+    }
+
+    65% {
+        content: 'I Am Desi|';
+    }
+
+    70% {
+        content: 'I Am Designer|';
+    }
+
+    75% {
+        content: 'I Am Desi|';
+    }
+
+    80%,
+    100% {
+        content: 'I Am |'
+    }
+
+
+
+}
+
